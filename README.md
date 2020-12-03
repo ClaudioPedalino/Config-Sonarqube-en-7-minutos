@@ -48,7 +48,7 @@ En nuestra máquina vamos a instalar:
 
 Vamos a abrir una consola en la solución de nuestro proyecto vamos a correr los siguientes comandos
 
-> dotnet sonarscanner begin /k:"<project_key>" /d:sonar.host.url="<sonar_container_url>" /d:sonar.login="<sonar_project_token_id>"
+> dotnet sonarscanner begin /k:"<api_project_folder>" /d:sonar.host.url="<sonar_container_service_url>" /d:sonar.login="<sonar_project_token_id>"
 
 > dotnet build
 
