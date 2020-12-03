@@ -16,11 +16,17 @@ pass: admin
 
 #### **[02]  Crear un proyecto en Sonar**
 - Crear un nuevo proyecto, 
+
 - Proveer crear una key asociada a ese proyecto
+
 ![containerport](sonar05.jpg)
+
 - Crear un token de acceso al proyecto 
+
 ![containerport](sonar07.jpg)
+
 - Elegir qué lenguaje será analizado en el proyecto
+
 ![containerport](sonar08.jpg)
 
 #### **[03] Añadiendo Sonarqube en nuestro proyecto**
