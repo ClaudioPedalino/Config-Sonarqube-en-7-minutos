@@ -59,4 +59,8 @@ Vamos a abrir una consola en la solución de nuestro proyecto vamos a correr los
 **[05] Verificar**  
 
 Volvemos a la página sonarqube y podemos analizar la calidad de nuestro código  
-    ...Que comience el juego
+    ...Que comience el juego 
+
+![containerport](sonar-scanned.jpg)
+
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
