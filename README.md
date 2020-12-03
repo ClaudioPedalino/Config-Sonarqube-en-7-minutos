@@ -17,17 +17,22 @@ pass: admin
 #### **[02]  Crear un proyecto en Sonar**
 - Crear un nuevo proyecto, 
 - Proveer crear una key asociada a ese proyecto
+![containerport](sonar05.jpg)
 - Crear un token de acceso al proyecto 
+![containerport](sonar07.jpg)
 - Elegir qué lenguaje será analizado en el proyecto
+![containerport](sonar08.jpg)
 
 #### **[03] Añadiendo Sonarqube en nuestro proyecto**
 **Requisito**: *En nuetra máquina vamos a necesitar tener instalado el sdk de java..*
-Vamos a necesitar también la herramienta de build de sonarqube del framework que vayamos a utilizar, en éste caso vamos a analizar un proyecto en C# con NetCore, vamos a instalar: `dotnet tool install --global dotnet-sonarscanner --version 4.8.0`
+Vamos a necesitar también la herramienta de build de sonarqube del framework que vayamos a utilizar, en éste caso vamos a analizar un proyecto en C# con NetCore, 
+En nuestra máquina vamos a instalar: 
+> dotnet tool install --global dotnet-sonarscanner --version 4.8.0
 
 #### **[04] Build de nuestro proyecto**
 Vamos a abrir una consola en la solución de nuestro proyecto vamos a correr los siguientes comandos
 
-> dotnet sonarscanner begin /k:"test-key" /d:sonar.host.url="<sonar_container_url>" /d:sonar.login="<sonar_project_token_id>"
+> dotnet sonarscanner begin /k:"<project_key>" /d:sonar.host.url="<sonar_container_url>" /d:sonar.login="<sonar_project_token_id>"
 
 > dotnet build
 
