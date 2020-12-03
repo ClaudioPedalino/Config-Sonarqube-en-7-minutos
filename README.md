@@ -12,7 +12,7 @@ La herramienta va a asociarnos el servicio y exponerlo en el puerto indicado, po
 ![containerport](sonar02.jpg)
 
 Vamos a hacer un login dentro de sonar:
-> user: admin
+> user: admin  
 > pass: admin
 
 <br />
