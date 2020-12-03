@@ -1,7 +1,7 @@
 ## 🔥 Configurando Sonarquebe en 7 minutos 🔥 
 - - -
 
-#### **[01]  Crear servicio de Sonarqube**
+#### **[01]  Crear servicio de Sonarqube**  
 Ingresar a `https://labs.play-with-docker.com` y crear una nueva instancia
 
 Dentro del contenedor vamos a correr el servicio de sonarqube con el siguiente commando:
@@ -17,7 +17,7 @@ Vamos a hacer un login dentro de sonar:
 
 <br />
 
-#### **[02]  Crear un proyecto en Sonar**
+#### **[02]  Crear un proyecto en Sonar**  
 - Crear un nuevo proyecto, 
 
 ![containerport](sonar04.jpg)
@@ -36,7 +36,7 @@ Vamos a hacer un login dentro de sonar:
 
 <br />
 
-#### **[03] Añadiendo Sonarqube en nuestro proyecto**
+#### **[03] Añadiendo Sonarqube en nuestro proyecto**  
 **Requisito**: *En nuetra máquina vamos a necesitar tener instalado el sdk de java..*  
 Vamos a necesitar también la herramienta de build de sonarqube del framework que vayamos a utilizar, en éste caso vamos a analizar un proyecto en C# con NetCore, 
 En nuestra máquina vamos a instalar: 
@@ -44,7 +44,8 @@ En nuestra máquina vamos a instalar:
 
 <br />
 
-#### **[04] Build de nuestro proyecto**
+#### **[04] Build de nuestro proyecto**  
+
 Vamos a abrir una consola en la solución de nuestro proyecto vamos a correr los siguientes comandos
 
 > dotnet sonarscanner begin /k:"<project_key>" /d:sonar.host.url="<sonar_container_url>" /d:sonar.login="<sonar_project_token_id>"
@@ -55,6 +56,7 @@ Vamos a abrir una consola en la solución de nuestro proyecto vamos a correr los
 
 <br />
 
-**[05] Verificar**
+**[05] Verificar**  
+
 Volvemos a la página sonarqube y podemos analizar la calidad de nuestro código  
     ...Que comience el juego
