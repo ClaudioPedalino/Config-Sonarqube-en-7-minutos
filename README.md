@@ -7,7 +7,7 @@ Dentro del contenedor vamos a correr el servicio de sonarqube con el siguiente c
 > docker run -d --name sonarqube -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true -p 9000:9000 sonarqube:latest
 
 La herramienta va a asociarnos el servicio expuesto en ese puerto en el siguiente link:
-![containerport](https://drive.google.com/file/d/12-xSLJVTHhvwi3FPXGEJIOEleTXwJcSb/view?usp=sharing)
+![containerport](https://github.com/ClaudioPedalino/Config-Sonarqube-en-7-minutos/blob/master/sonar02.jpg?raw=true)
 
 Vamos a hacer un login dentro de sonar:
 > user: admin
