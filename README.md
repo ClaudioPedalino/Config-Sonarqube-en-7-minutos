@@ -37,7 +37,7 @@ Vamos a hacer un login dentro de sonar:
 <br />
 
 #### **[03] Añadiendo Sonarqube en nuestro proyecto**
-**Requisito**: *En nuetra máquina vamos a necesitar tener instalado el sdk de java..*
+**Requisito**: *En nuetra máquina vamos a necesitar tener instalado el sdk de java..*  
 Vamos a necesitar también la herramienta de build de sonarqube del framework que vayamos a utilizar, en éste caso vamos a analizar un proyecto en C# con NetCore, 
 En nuestra máquina vamos a instalar: 
 > dotnet tool install --global dotnet-sonarscanner --version 4.8.0
