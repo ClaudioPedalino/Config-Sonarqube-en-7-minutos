@@ -56,5 +56,5 @@ Vamos a abrir una consola en la solución de nuestro proyecto vamos a correr los
 <br />
 
 **[05] Verificar**
-Volvemos a la página sonarqube y podemos analizar la calidad de nuestro código
+Volvemos a la página sonarqube y podemos analizar la calidad de nuestro código  
     ...Que comience el juego
